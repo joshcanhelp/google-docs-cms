@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document by http://www.joshcanhelp.com */
+
+/*** CSS RESET ***/
+
+html, body, h1, h2, p, a, img, ul, li {margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline}
+
+:focus {outline: 0;}
+
+ol, ul {list-style: none;}
+
+img {border: 0;}
+
+/*** MAIN CSS ***/
+
+body {line-height: 1; font-size: 80%; font-family: Arial, Helvetica, sans-serif}
+
+	#theWrapper {width: 800px; margin: 0 auto}
+	
+	#theHeader {text-align: center}
+	
+	#theNav {width: 200px; padding: 20px 0 0 0; float: left}
+		#theNav li {padding: 0 20px 0 0; margin: 0 0 1px 0; font-size: 0.8em; text-transform:uppercase}
+		#theNav li a {width: 180px; padding: 6px 10px; display: block; text-decoration: none; color: #222; background: #ddd;}
+			#theNav li a:hover {background: #bbb}
+	
+	#theContent {width: 570px; padding: 20px 0 0 30px; float: left}
+		#theContent h1 {padding: 0 0 20px 0; font-size: 2.6em}
+		#theContent p {padding: 0 10px 12px 0; line-height: 1.5em;} 
+			#theContent p.link {} 
+			#theContent p.image {} 
+			#theContent p a {padding: 10px 20px; display: block; background: #eee; border: 1px solid #ddd; color: #333; line-height: 1.4em;}
+				#theContent p a:hover {background: #ddd; border: 1px solid #ccc; color: #111}
+			#theContent p img {max-width: 570px; display: block; margin: 0 auto;}
+		#theContent h2 {padding: 10px 0 8px 0; font-size: 1.6em; font-weight:bold; letter-spacing: -1px}
+
+	
+	#theFooter {width: 100%; padding: 10px 0 8px 0; margin: 50px 0 0 0; float: left; clear: both; font-size:0.9em; text-align: center; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd}
+		#theFooter p {margin: 0 0 8px;}
